@@ -1,3 +1,9 @@
+import os
+
+import django
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "car_collection.settings")
+django.setup()
 from cli_manager.files.fake_data import faker_brand, faker_car, faker_fuel_type
 from cli_manager.files.utils import exit_menu, create_menu
 

@@ -1,4 +1,10 @@
+import os
 from datetime import datetime
+
+import django
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "car_collection.settings")
+django.setup()
 
 from car_collection.cars.models import Car, Brand, FuelType
 
