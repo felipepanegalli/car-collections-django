@@ -15,6 +15,9 @@ class Car(models.Model):
         verbose_name = 'Car'
         verbose_name_plural = 'Cars'
 
+    def __str__(self):
+        return self.name
+
 
 class Brand(models.Model):
     name = models.CharField(max_length=200)
@@ -24,6 +27,9 @@ class Brand(models.Model):
         db_table = 'cars_brand'
         verbose_name = 'Brand'
         verbose_name_plural = 'Brands'
+
+    def __str__(self):
+        return self.name
 
 
 class FuelType(models.Model):
@@ -35,3 +41,6 @@ class FuelType(models.Model):
         db_table = 'cars_fuel_types'
         verbose_name = 'Fuel type'
         verbose_name_plural = 'Fuel types'
+
+    def __str__(self):
+        return self.type

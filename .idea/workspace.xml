@@ -2,17 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab21f8cc-e384-4453-97c9-c8071661c7f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/car_collection/cars/management/commands/seed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_collection/cars/management/commands/seed_cars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_collection/cars/management/commands/seed_fuel_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_collection/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_collection/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_manager/files/fake_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli_manager/files/fake_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli_manager/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_collection/cars/management/commands/seed.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_collection/cars/management/commands/seed_brands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_collection/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_collection/cars/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_manager_not_used/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_manager_not_used/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_manager_not_used/files/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_manager_not_used/files/fake_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_manager_not_used/files/utils.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,9 +58,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/car_collection/cars/management/commands" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/car_collection/cars/management/commands" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/car_collection/cars/management/commands" />
       <recent name="$PROJECT_DIR$/car_collection" />
@@ -112,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574792716284</updated>
       <workItem from="1574792720962" duration="45000" />
-      <workItem from="1574792862430" duration="10056000" />
+      <workItem from="1574792862430" duration="11807000" />
     </task>
     <servers />
   </component>
